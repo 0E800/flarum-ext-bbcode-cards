@@ -1,0 +1,23 @@
+{
+    "name": "oe800/flarum-ext-bbcode-cards",
+    "description": "Embed cards and articles inside Flarum post.",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^0.1.0-beta.6"
+    },
+  "extra": {
+        "flarum-extension": {
+            "title": "BBCode Cards",
+            "icon": {
+                "name": "paste",
+                "backgroundColor": "#000",
+                "color": "#fff"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "oe800\\BBCodeCards\\": "src/"
+    }
+}
+}
