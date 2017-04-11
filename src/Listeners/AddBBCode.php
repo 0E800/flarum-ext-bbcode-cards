@@ -13,7 +13,7 @@ class AddBBCode
 
 
 	 $event->configurator->BBCodes->addCustom(
-            '[CARD]{COLOR},{URL},{TEXT2},{TEXT3},{TEXT4},{TEXT5}[/CARD]',
+            '[CARD]{COLOR},{URL},{URL2},{TEXT2},{TEXT3},{TEXT4},{TEXT5}[/CARD]',
             '<div class="ccontainer" style="--main-bg-color: {COLOR}">
    <div class="ccolumn">
     <div class="cpost-module"><div class="cthumbnail">
@@ -24,7 +24,7 @@ class AddBBCode
         <h1 class="ctitle">{TEXT3}</h1>
         <h2 class="csub_title">{TEXT4}</h2>
         <p class="cdescription">{TEXT5}</p>
-        <div class="cpost-meta"><div class="butread">Read More</div>
+        <div class="cpost-meta"><a href="{URL2}"><div class="butread">Read More</div></a>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@ class AddBBCode
         );
 
 $event->configurator->BBCodes->addCustom(
-            '[CARD2]{COLOR},{URL},{TEXT2},{TEXT3},{TEXT4},{TEXT5}[/CARD2]',
+            '[CARD2]{COLOR},{URL},{URL2},{TEXT2},{TEXT3},{TEXT4},{TEXT5}[/CARD2]',
             '<div class="ccontainer" style="--main-bg-color: {COLOR}">
    <div class="ccolumn2">
     <div class="cpost-module"><div class="cthumbnail">
@@ -44,7 +44,7 @@ $event->configurator->BBCodes->addCustom(
         <h1 class="ctitle">{TEXT3}</h1>
         <h2 class="csub_title">{TEXT4}</h2>
         <p class="cdescription">{TEXT5}</p>
-        <div class="cpost-meta"><div class="butread">Read More</div>
+	<div class="cpost-meta"><a href="{URL2}"><div class="butread">Read More</div></a>
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@ $event->configurator->BBCodes->addCustom(
 );
 
 $event->configurator->BBCodes->addCustom(
-            '[CARD3]{COLOR},{URL},{TEXT2},{TEXT3},{TEXT4},{TEXT5}[/CARD3]',
+            '[CARD3]{COLOR},{URL},{URL2},{TEXT2},{TEXT3},{TEXT4},{TEXT5}[/CARD3]',
             '<div class="ccontainer" style="--main-bg-color: {COLOR}">
    <div class="ccolumn3">
     <div class="cpost-module"><div class="cthumbnail">
@@ -66,7 +66,7 @@ $event->configurator->BBCodes->addCustom(
         <h1 class="ctitle">{TEXT3}</h1>
         <h2 class="csub_title">{TEXT4}</h2>
         <p class="cdescription">{TEXT5}</p>
-        <div class="cpost-meta"><div class="butread">Read More</div>
+	<div class="cpost-meta"><a href="{URL2}"><div class="butread">Read More</div></a>
         </div>
       </div>
     </div>
