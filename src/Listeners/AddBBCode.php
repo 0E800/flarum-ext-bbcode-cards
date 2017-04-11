@@ -66,7 +66,7 @@ $event->configurator->BBCodes->addCustom(
         <h1 class="ctitle">{TEXT3}</h1>
         <h2 class="csub_title">{TEXT4}</h2>
         <p class="cdescription">{TEXT5}</p>
-	<div class="cpost-meta"><a href="{URL2} target="_blank"><div class="butread">Read More</div></a>
+	<div class="cpost-meta"><a href="{URL2}" target="_blank"><div class="butread">Read More</div></a>
         </div>
       </div>
     </div>
