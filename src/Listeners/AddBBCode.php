@@ -24,7 +24,7 @@ class AddBBCode
         <h1 class="ctitle">{TEXT3}</h1>
         <h2 class="csub_title">{TEXT4}</h2>
         <p class="cdescription">{TEXT5}</p>
-        <div class="cpost-meta"><a href="{URL2}"><div class="butread">Read More</div></a>
+        <div class="cpost-meta"><a href="{URL2}" target="_blank"><div class="butread">Read More</div></a>
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@ $event->configurator->BBCodes->addCustom(
         <h1 class="ctitle">{TEXT3}</h1>
         <h2 class="csub_title">{TEXT4}</h2>
         <p class="cdescription">{TEXT5}</p>
-	<div class="cpost-meta"><a href="{URL2}"><div class="butread">Read More</div></a>
+	<div class="cpost-meta"><a href="{URL2}" target="_blank"><div class="butread">Read More</div></a>
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@ $event->configurator->BBCodes->addCustom(
         <h1 class="ctitle">{TEXT3}</h1>
         <h2 class="csub_title">{TEXT4}</h2>
         <p class="cdescription">{TEXT5}</p>
-	<div class="cpost-meta"><a href="{URL2}"><div class="butread">Read More</div></a>
+	<div class="cpost-meta"><a href="{URL2} target="_blank"><div class="butread">Read More</div></a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ $event->configurator->BBCodes->addCustom(
 $event->configurator->BBCodes->addCustom(
             '[ACARD]{URL},{URL2},{TEXT},{TEXT2},{TEXT3},{TEXT4}[/ACARD]',
             '<div class=ccsection><div class="ccauthor">
-    <a href="{URL}" class="name">
+    <a href="{URL}" target="_blank" class="name">
       <img src="{URL2}" class="circle" /><br/>
       {TEXT}
     </a>
