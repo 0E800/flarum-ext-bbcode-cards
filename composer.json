@@ -9,7 +9,7 @@
         "flarum-extension": {
             "title": "BBCode Cards",
             "icon": {
-                "name": "paste",
+                "name": "vcard",
                 "backgroundColor": "#000",
                 "color": "#fff"
             }

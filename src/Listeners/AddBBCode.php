@@ -12,6 +12,7 @@ class AddBBCode
     {
 
 
+
 	 $event->configurator->BBCodes->addCustom(
             '[CARD]{COLOR},{URL},{URL2},{TEXT2},{TEXT3},{TEXT4},{TEXT5}[/CARD]',
             '<div class="ccontainer" style="--main-bg-color: {COLOR}">
